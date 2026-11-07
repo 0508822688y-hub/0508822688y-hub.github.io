@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for Private Ledger's personal-use Gmail and Google Drive integration.">
+  <title>Privacy Policy — Private Ledger</title>
+  <style>
+    :root {color-scheme:light; font-family:system-ui,-apple-system,"Segoe UI",sans-serif; background:#f5f7fb; color:#172b4d}
+    * {box-sizing:border-box}
+    body {margin:0; line-height:1.65}
+    main {max-width:840px; margin:6vh auto; padding:0 22px}
+    article {background:white; border:1px solid #e1e7f0; border-radius:18px; padding:clamp(24px,5vw,50px); box-shadow:0 10px 40px rgba(16,42,80,.06)}
+    h1 {font-size:clamp(2rem,5vw,2.7rem); letter-spacing:-.035em; line-height:1.2}
+    h2 {font-size:1.17rem; margin-top:1.65rem}
+    p,li {color:#35445c}
+    ul {padding-left:1.35em}
+    a {color:#2458ad; text-underline-offset:3px}
+    footer {margin-top:2rem; padding-top:1rem; border-top:1px solid #e4e8f0; font-size:.9rem}
+  </style>
+</head>
+<body>
+<main><article>
+  <p><a href="/">Private Ledger home</a></p>
+  <h1>Privacy Policy</h1>
+  <p><strong>Effective:</strong> 7 November 2026</p>
+  <p>This policy describes how Private Ledger, a personal-use application operated for its authorised account owner, uses Google account data to organise investment evidence. The public information website itself does not request account access, display private records, or use analytics or advertising trackers.</p>
+
+  <h2>Google data accessed</h2>
+  <ul>
+    <li><strong>Gmail:</strong> with explicit owner consent, the app may read relevant messages, headers, body text and attachments using Gmail read-only permissions. It does not send, modify or delete messages.</li>
+    <li><strong>Google Drive:</strong> with explicit owner consent, the app may read file content and metadata for files within the approved app-accessible scope, and may create or organise authorised evidence files in the owner's Drive. Folder visibility does not by itself mean every older file is accessible.</li>
+  </ul>
+
+  <h2>Purposes and processing</h2>
+  <p>Google data is used only to discover source evidence, verify property/source identity, calculate document hashes for duplicate prevention, place authorised evidence in the owner's Drive archive, and maintain source references, processing status, provenance and review-only candidates within the private ledger. The cloud intake process is not authorised to approve financial transactions or post accounting changes automatically.</p>
+
+  <h2>Storage and sharing</h2>
+  <p>Original documents remain in the owner's Gmail or Google Drive; authorised copies may be kept in the owner's designated Drive folders. Source IDs, checksums, evidence metadata, audit events and review records may be stored in the access-controlled ledger database hosted on Supabase. Data is transmitted to Google and the application backend only as needed to perform these functions. Authorised ledger users may see only the information permitted by their assigned roles.</p>
+  <p>Google user data is not sold, used for targeted advertising, or transferred for unrelated commercial purposes. The cloud intake process does not use Gmail or Drive contents to train general-purpose AI models.</p>
+
+  <h2>Security and credentials</h2>
+  <p>Private ledger functions require authenticated access, with distinct owner and restricted-worker permissions. If the cloud integration is activated, OAuth credentials are to be kept in backend-managed secrets rather than in this public website, source control or browser storage. Secure HTTPS connections are used for supported API requests.</p>
+
+  <h2>Retention, control and revocation</h2>
+  <p>The owner controls the underlying Google account and can remove Drive evidence copies and revoke Google's app authorisation in Google Account settings. Revocation prevents new authorised Google access, but previously filed Drive copies and ledger evidence/audit records can remain until separately deleted or retained as required for recordkeeping. There is no automatic deletion timetable promised by this policy. Requests to review or remove stored records must be handled by the owner through the private ledger administration process.</p>
+
+  <h2>Google API Limited Use</h2>
+  <p>Use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+
+  <h2>Changes and contact</h2>
+  <p>This policy will be updated if the application's actual data handling or scope changes. This is a private personal-use application, not a public sign-up service. For privacy questions, use the application support contact listed on its Google OAuth consent screen.</p>
+  <footer><a href="/">Home</a> &middot; Private Ledger &middot; Updated 7 November 2026</footer>
+</article></main>
+</body>
+</html>
